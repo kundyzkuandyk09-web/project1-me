@@ -1,0 +1,23 @@
+[
+  {
+    "id": "b1f6c2a4-3d7e-4a52-9c1b-0e8a5d2f7a11",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "pages": 295,
+    "read": true
+  },
+  {
+    "id": "7c9d1e35-62b8-4f0a-a4d3-5b1c8e90f2a6",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "pages": 320,
+    "read": false
+  },
+  {
+    "id": "e3a85b07-91cd-4d6e-8f42-c7d0a1b94e53",
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "pages": 412,
+    "read": false
+  }
+]

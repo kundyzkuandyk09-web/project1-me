@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+<body>
+    <header>
+        <p>My Library</p>
+        <button class="addBtn">Add book</button>
+    </header>
+    <div class="cards">
+
+
+    </div>
+    <div class="popup">
+        <form>
+            <p>Add book</p>
+            <label>
+                Title
+                <input type="text" name="title" required>
+            </label>
+            <label>
+                Author
+                <input type="text" name="author" required>
+            </label>
+            <label>
+                Pages
+                <input type="number" name="pages" min="1" required>
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="read">
+                I have read this book
+            </label>
+            <div class="popup-buttons">
+                <button type="button" class="cancelBtn">Cancel</button>
+                <button type="submit" class="submitBtn">Add</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
